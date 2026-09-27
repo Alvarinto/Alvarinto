@@ -10,6 +10,7 @@ Soy desarrollador de software especializado en **C# / .NET** y trabajo en el **s
 - **Infraestructura:** homelab propio con Docker, Linux y Tailscale
 - **Aprendiendo ahora:** cloud y desarrollo de videojuegos con Godot
 - **Idiomas del código y la documentación:** español e inglés
+- **Contacto:** [contact@bmalvaro.dev](mailto:contact@bmalvaro.dev)
 
 ## 🤖 Cómo trabajo con IA
 
@@ -51,7 +52,11 @@ CLI que consulta la API de GitHub y procesa la actividad de un usuario.
 - 🧊 **Modelado 3D:** diseño piezas propias.
 - 🎮 **Godot:** estoy aprendiendo desarrollo de videojuegos, y ese será mi próximo repo.
 
+## 📬 Contacto
+
+✉️ **Email:** [contact@bmalvaro.dev](mailto:contact@bmalvaro.dev)
+
 ---
 
 ### English summary
-**Álvaro:** .NET (C#) software developer in the public sector. Daily user of **AI coding agents (Claude Code)** combined with **TDD** and spec-driven development. Hands-on experience with Python, Java, Kotlin (Android / Wear OS) and Go through personal projects. Runs a self-hosted homelab (Docker, Linux, Tailscale). Currently exploring **cloud** and learning Godot. Fast learner who enjoys shipping small, diverse projects end to end.
+**Álvaro:** .NET (C#) software developer in the public sector. Daily user of **AI coding agents (Claude Code)** combined with **TDD** and spec-driven development. Hands-on experience with Python, Java, Kotlin (Android / Wear OS) and Go through personal projects. Runs a self-hosted homelab (Docker, Linux, Tailscale). Currently exploring **cloud** and learning Godot. Fast learner who enjoys shipping small, diverse projects end to end. Contact: contact@bmalvaro.dev
