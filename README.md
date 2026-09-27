@@ -1,35 +1,57 @@
-# Hola, soy Álvaro 👋
+# Álvaro · Desarrollador .NET | Desarrollo asistido por IA | TDD
 
-Desarrollador **.NET** en el sector público. Me gusta aprender cosas nuevas y montar proyectos pequeños y variados, de programación y de fuera de ella.
+Soy desarrollador de software especializado en **C# / .NET** y trabajo en el **sector público**. En mi día a día integro **agentes de IA para programar (Claude Code y herramientas similares)** con buenas prácticas como **TDD**. Aprendo rápido y me gusta construir proyectos pequeños y variados para probar tecnologías nuevas de principio a fin. Ahora mismo estoy explorando el **cloud** como siguiente paso en mi carrera.
 
-## 🔭 Ahora mismo
+## 📌 Perfil en breve
 
-- 🤖 **Desarrollo asistido por IA:** trabajo a diario con Claude Code y herramientas similares, y sigo de cerca las novedades.
-- ✅ **Buenas prácticas:** TDD, código limpio y commits con sentido.
-- ☁️ **Explorando el cloud:** me estoy planteando dar el salto.
-- 🎮 **Aprendiendo Godot:** es lo próximo que aparecerá por aquí.
+- **Rol actual:** Desarrollador .NET (C#), sector público
+- **Lenguajes:** C# / .NET (uso profesional) · Python · Java · Kotlin · Go
+- **Forma de trabajar:** desarrollo asistido por IA, TDD y especificación antes del código
+- **Infraestructura:** homelab propio con Docker, Linux y Tailscale
+- **Aprendiendo ahora:** cloud y desarrollo de videojuegos con Godot
+- **Idiomas del código y la documentación:** español e inglés
 
-## 🛠️ Stack
+## 🤖 Cómo trabajo con IA
 
-![.NET](https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
+- Uso **Claude Code** a diario como herramienta de desarrollo, no solo como autocompletado. Le delego tareas completas y reviso su trabajo.
+- Documento el contexto para los agentes en ficheros como `AGENTS.md` y parto de especificaciones (`specs.md`) antes de implementar. Tienes un ejemplo en [wger-wearOS-integration](https://github.com/Alvarinto/wger-wearOS-integration).
+- Aplico **TDD** para que el código generado con IA esté verificado por tests.
+- Sigo a diario las novedades en modelos, herramientas y flujos de trabajo con agentes.
 
-## 🚀 Proyectos
+## 🚀 Proyectos destacados
 
-| Proyecto | Qué es | Stack |
-|---|---|---|
-| [wger-wearOS-integration](https://github.com/Alvarinto/wger-wearOS-integration) | Registra tus entrenamientos en el reloj sin conexión y súbelos a tu servidor wger autoalojado | Kotlin · Wear OS · Compose |
-| [dead-drop](https://github.com/Alvarinto/dead-drop) 🚧 | Buzón de mensajes cifrados que se autodestruyen al leerlos, alojado en mi Raspberry Pi | Go · AES-GCM |
-| [github-event-scraper](https://github.com/Alvarinto/github-event-scraper) 🚧 | CLI para consultar la actividad de un usuario de GitHub, como repaso de Java | Java 21 · Jackson |
+### [wger-wearOS-integration](https://github.com/Alvarinto/wger-wearOS-integration): app móvil + Wear OS
+App Android y Wear OS para registrar entrenamientos desde un Pixel Watch **sin conexión** y sincronizarlos después con un servidor [wger](https://wger.de) autoalojado.
+- **Stack:** Kotlin, Jetpack Compose (Material 3), Wear Compose, Room, Wearable Data Layer API, REST API
+- **Demuestra:** arquitectura multi-módulo (móvil como pasarela y reloj offline-first), servicios en primer plano, sensores (ritmo cardíaco) y sincronización fiable entre dispositivos
 
-## 🧰 Fuera del código
+### [dead-drop](https://github.com/Alvarinto/dead-drop): mensajes cifrados de un solo uso 🚧
+Cliente y servidor en Go que envían mensajes cifrados con **AES-256-GCM** a una Raspberry Pi. Los mensajes se autodestruyen al leerlos.
+- **Stack:** Go, `net/http`, `crypto/aes`, `crypto/cipher`
+- **Demuestra:** aprendizaje autónomo de un lenguaje nuevo, criptografía aplicada y arquitectura cliente-servidor
 
-- 🏠 **Homelab:** servicios autoalojados, Docker y acceso remoto con Tailscale.
-- 🧊 **Modelado 3D:** diseño piezas y cacharros.
-- 🎮 **Desarrollo de videojuegos:** estoy empezando con Godot.
+### [github-event-scraper](https://github.com/Alvarinto/github-event-scraper): CLI de actividad en GitHub 🚧
+CLI que consulta la API de GitHub y procesa la actividad de un usuario.
+- **Stack:** Java 21 (`HttpClient`, records), Jackson, Maven
+- **Demuestra:** consumo de APIs REST y Java moderno
+
+## 🛠️ Stack técnico
+
+| Área | Tecnologías |
+|---|---|
+| Backend | C#, .NET, Python, Java, Go |
+| Móvil | Kotlin, Android, Jetpack Compose, Wear OS |
+| Herramientas de IA | Claude Code, agentes de programación, IA con contexto documentado |
+| Calidad | TDD, control de versiones con Git, Conventional Commits |
+| Infra | Docker, Linux, Tailscale, autoalojamiento (homelab) |
+
+## 🧰 Fuera del trabajo
+
+- 🏠 **Homelab:** administro servicios autoalojados en casa.
+- 🧊 **Modelado 3D:** diseño piezas propias.
+- 🎮 **Godot:** estoy aprendiendo desarrollo de videojuegos, y ese será mi próximo repo.
+
+---
+
+### English summary
+**Álvaro:** .NET (C#) software developer in the public sector. Daily user of **AI coding agents (Claude Code)** combined with **TDD** and spec-driven development. Hands-on experience with Python, Java, Kotlin (Android / Wear OS) and Go through personal projects. Runs a self-hosted homelab (Docker, Linux, Tailscale). Currently exploring **cloud** and learning Godot. Fast learner who enjoys shipping small, diverse projects end to end.
